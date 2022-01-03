@@ -12,6 +12,7 @@ const CartItem = ({ item }) => {
             type: REMOVE_FROM_CART,
             _id: item._id
         });
+        
         idbPromise('cart', 'delete', { ...item });
     };
 
