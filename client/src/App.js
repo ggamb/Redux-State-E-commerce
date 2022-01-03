@@ -18,7 +18,7 @@ import OrderHistory from './pages/OrderHistory';
 import Success from './pages/Success'
 
 import { Provider } from 'react-redux';
-import store from '.utils/ReduxStore';
+import store from './utils/ReduxStore';
 
 const httpLink = createHttpLink({
   uri: '/graphql',
