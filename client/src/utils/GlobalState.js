@@ -1,4 +1,6 @@
-/*import React, { createContext, useContext } from "react";
+/* Code refactored to use Redux. Commented out code from Context is below
+
+import React, { createContext, useContext } from "react";
 import { useProductReducer } from './reducers';
 
 
