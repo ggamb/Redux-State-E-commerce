@@ -11,7 +11,12 @@
 ## Description
 I refactored my own Shop Shop code (from [this](https://github.com/ggamb/shop-shop) repo) to change the global state from React's Context API to Redux.
 
-Shop Shop is an e-commerce site with Stripe payment system that allows users to sign up/login, add items to their carts, and checkout using a credit card. In the shopping cart, users can manipulate the number of items they want to buy of a particular product and can delete products from their carts. To quickly find items, users can sort the items by category. Shop Shop comes loaded with seeded products.
+Shop Shop is an e-commerce site with Stripe payment system that allows users to sign up/login, add items to their carts, and checkout using a credit card. In the shopping cart, users can manipulate the number of items they want to buy of a particular product and can delete products from their carts. To quickly find items, users can sort the items by category. Shop Shop comes loaded with seeded products
+
+The application will look something like this: 
+
+![screencapture-shop-shop-redux-refactor-herokuapp-2022-01-08-18_49_29](https://user-images.githubusercontent.com/86434738/148663784-a69e31ad-9483-45bf-be62-0b7ba39e0de3.jpg)
+
 
 ## Installation
 If you would like to play with the code, clone the code to your machine, open the root of the project in your favorite IDE, run `npm i` to install dependencies, and then `npm run develop` to run the server and client concurrently.
