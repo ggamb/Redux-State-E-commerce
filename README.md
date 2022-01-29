@@ -1,4 +1,4 @@
-# Redux-State-challenge
+# Redux-State-refactor
 
 ## Table of Contents
 * [Description](#description)
